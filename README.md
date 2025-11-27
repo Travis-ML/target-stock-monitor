@@ -27,7 +27,7 @@ The API key and endpoints were discovered through browser HAR (HTTP Archive) fil
 4. **Export the HAR file** (Right-click → Save all as HAR)
 5. **Analyze the requests** — Look for the `x-api-key` value in the header section of the JSON HAR file.
 
-From the HAR file, we extracted:
+From the HAR file, I extracted:
 - **API Base URL**: `https://redsky.target.com/redsky_aggregations/v1/web`
 - **API Key**: A public/frontend key passed as a query parameter
 - **Required Headers**: Browser-like headers to avoid bot detection
